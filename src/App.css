@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   color: white;
   background-color: #1C1C1C;
@@ -117,4 +121,15 @@ width: 317px;
 height: 64px;
 background: #161619;
 border-radius: 0px 0px 10px 10px;
+}
+
+.footer > ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  align-content: center;
+}
+
+.__footer-icons {
+  margin-top: 12px;
 }
